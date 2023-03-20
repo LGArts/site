@@ -1,4 +1,4 @@
-<html><head><title>Linda Green Arts</title>
+<html><head><title>Linda Green Arts - Events</title>
 <link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
 <link rel="stylesheet" type="text/css" href="res/style.css">
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Open+Sans:700,400">
@@ -8,7 +8,7 @@
 	<a href="/"><div class="header-title">Linda Green Arts</div></a>
 	<a href="/about"><div class="header-button">About</div></a>
 	<a href="/gallery"><div class="header-button">Gallery</div></a>
-	<a href="/events"><div class="header-button">Events</div></a>
+	<a href="/events"><div class="header-button-here">Events</div></a>
 </div>
 <div class="head-line"></div>
 </head><body>
@@ -16,9 +16,26 @@
 <div class="site-body">
 <!-- START OF PAGE -->
 
-<br><br>
+<div class="line">Events</div>
+<img class="right-image" src="/images/events2.jpg"/>
 
-<div align="center"><img style="width:378px;margin-bottom:30px" src="images/home1.jpg"><div class="big-home-title">Linda Green Arts</div></div>
+Current Works Availible at:
+<b>Coast Highway Artists Collective, Point Arena, California</b>
+<b>Sparrow Gallery, Sacramento, California</b>
+
+<div class="line"></div>
+<i>For more information, contact me at <span id="address"><noscript><b>[Activate Javascript to view]</b>.</noscript></span>
+<script type="text/javascript">
+function rot13(str) {
+	return str.replace(/[a-zA-Z]/g, function(chr) {
+		var start = chr <= 'Z' ? 65 : 97;
+		return String.fromCharCode(start + (chr.charCodeAt(0) - start + 13) % 26);
+	});
+}
+var em = rot13("yvaqnterranegf@tznvy.pbz");
+var elink = "<a href=\"mailto:" + em + "\">" + em + "<\/a>."
+document.getElementById("address").innerHTML = elink;
+</script></i>
 
 <!-- END OF PAGE -->
 </div>
