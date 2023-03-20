@@ -225,7 +225,7 @@ a:hover {
 	font-size: 1.4rem;
 	line-height: 1.4em;
 	color: #CCCCCC;
-	white-space: pre-wrap;
+	white-space: pre-line;
 }
 
 .site-body img {
@@ -287,6 +287,25 @@ a:hover {
 	border-bottom: 2px solid #3F3F3F;
 }
 
+.line-break {/*dividing line*/
+	display: flex;
+	width: auto;
+	padding-left: 4px;
+	padding-top: 8px;
+	padding-bottom: 2px;
+	margin-left: -6px;
+	margin-right: -6px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	position: relative;
+	font-family: 'title';
+	font-weight: normal;
+	font-size: 2.1rem;
+	line-height: 20px;
+	color: #FFFFFF;
+	border-bottom: 2px solid #3F3F3F;
+}
+
 img {
 	max-height: 740px;
 }
@@ -295,11 +314,14 @@ img {
 	width: 260px;
 	float: right;
 	padding-left: 10px;
+	padding-top: 20px;
+	padding-bottom: 8px;
 }
 
 .art {/* art title card */
 	padding-right: 20px;
-	margin-top: -10px;
+	margin-top: 10px;
+	margin-bottom: 40px;
 	padding-top: 10px;
 	padding-bottom: 34px;
 	font-family: 'body';
@@ -354,6 +376,7 @@ img {
 	margin-right: auto;
 	padding-top: 25px;
 	padding-bottom: 25px;
+	margin-top: 20px;
 	color: #BBBBBB;
 	font-family: 'body';
 	font-weight: normal;
